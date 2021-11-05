@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="590.0" prefWidth="794.0" styleClass="background"
+            xmlns="http://javafx.com/javafx/8.0.121" fx:controller="Server.UDP.View.UDPView">
+    <center>
+        <TextArea fx:id="Console" prefHeight="394.0" prefWidth="312.0" promptText="Console" wrapText="true"
+                  BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets bottom="5.0" right="5.0" top="25.0"/>
+            </BorderPane.margin>
+            <font>
+                <Font size="22.0"/>
+            </font>
+        </TextArea>
+    </center>
+    <right>
+        <VBox prefHeight="407.0" prefWidth="112.0" BorderPane.alignment="CENTER">
+            <Label text="Port" textFill="WHITE">
+                <font>
+                    <Font size="23.0"/>
+                </font>
+                <VBox.margin>
+                    <Insets top="20.0"/>
+                </VBox.margin>
+            </Label>
+            <TextField fx:id="PortField" prefHeight="29.0" prefWidth="125.0">
+                <VBox.margin>
+                    <Insets/>
+                </VBox.margin>
+            </TextField>
+            <Button id="menuBtn" fx:id="ListenBtn" mnemonicParsing="false" onAction="#ListenStart" prefHeight="40.0"
+                    prefWidth="120.0" text="Listen">
+                <VBox.margin>
+                    <Insets top="25.0"/>
+                </VBox.margin>
+            </Button>
+            <Button id="menuBtn" fx:id="StopBtn" mnemonicParsing="false" onAction="#StopListening" prefHeight="40.0"
+                    prefWidth="120.0" text="Stop">
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                </padding>
+                <VBox.margin>
+                    <Insets top="10.0"/>
+                </VBox.margin>
+            </Button>
+            <Button id="menuBtn" fx:id="OpenLogBtn" mnemonicParsing="false" onAction="#OpenLog" prefHeight="40.0"
+                    prefWidth="120.0" text="Open Log">
+                <padding>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                </padding>
+                <VBox.margin>
+                    <Insets top="20.0"/>
+                </VBox.margin>
+            </Button>
+        </VBox>
+    </right>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+    </padding>
+    <bottom>
+        <ProgressBar fx:id="LoadBar" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+                     prefHeight="25.0" progress="0.0" styleClass="filler" BorderPane.alignment="CENTER"/>
+    </bottom>
+</BorderPane>

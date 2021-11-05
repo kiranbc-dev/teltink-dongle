@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="MainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="848.0" styleClass="background" stylesheets="@../CSS/MetroStyleDark.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Source.PrimaryUIView">
+   <left>
+      <VBox prefHeight="399.0" prefWidth="129.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="menuBtn" fx:id="TCPLOAD_btn" mnemonicParsing="false" onMouseClicked="#LoadTCPUI" prefHeight="40.0" prefWidth="136.0" text="TCP">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Button>
+            <Button id="menuBtn" fx:id="LOADUDP_UI" mnemonicParsing="false" onMouseClicked="#LoadUDPUI" prefHeight="40.0" prefWidth="149.0" text="UDP">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button id="menuBtn" fx:id="PARSELOAD_UI" mnemonicParsing="false" onMouseClicked="#LoadParserUI" prefHeight="40.0" prefWidth="147.0" text="Parser">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <ImageView fx:id="bonus" disable="true" fitHeight="74.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@200.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </left>
+   <bottom>
+      <FlowPane prefHeight="57.0" prefWidth="848.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView accessibleHelp="Teltinka tau tinka ?" fitHeight="93.0" fitWidth="293.0" onMouseClicked="#Click" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@teltonika-logo.png" />
+               </image>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </ImageView>
+            <Label fx:id="MemoryUsageLabel" prefHeight="30.0" prefWidth="129.0" text="Label" textFill="#00ccff">
+               <FlowPane.margin>
+                  <Insets left="10.0" />
+               </FlowPane.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+         </children>
+      </FlowPane>
+   </bottom>
+   <top>
+      <Label fx:id="SceneTitle" prefHeight="39.0" prefWidth="839.0" text="TCP Listener" textAlignment="JUSTIFY" textFill="WHITE" BorderPane.alignment="TOP_LEFT">
+         <font>
+            <Font size="27.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets left="5.0" top="10.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+</BorderPane>

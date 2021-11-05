@@ -1,0 +1,108 @@
+2020-06-02 14:52:33,853  INFO [JavaFX Application Thread] - Source.Main.start 50 - 
+Automatic vehicle location representor v1.3.9 started...
+2020-06-02 14:52:33,882  INFO [JavaFX Application Thread] - Source.Main.start 51 - Installed JAVA version: 1.8.0_251
+2020-06-02 14:52:47,339  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [4002]
+2020-06-02 14:52:47,340  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-06-02 14:52:49,071  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [4002]... listening for incoming connections.
+2020-06-02 15:02:17,619  INFO [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0xc6aa4035, L:/192.168.1.13:4002 - R:/185.15.14.137:63439]
+2020-06-02 15:04:28,519 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.exceptionCaught 195 - Exception occurred ! message : 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+2020-06-02 15:04:28,544  INFO [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4002 has disconnected.
+2020-06-02 15:11:37,441  INFO [nioEventLoopGroup-2-3] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x09da9dfc, L:/192.168.1.13:4002 - R:/185.15.14.137:59879]
+2020-06-02 15:13:54,780 ERROR [nioEventLoopGroup-2-3] - Server.TCP.TcpServerHandler.exceptionCaught 195 - Exception occurred ! message : 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+2020-06-02 15:13:54,781  INFO [nioEventLoopGroup-2-3] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4002 has disconnected.
+2020-06-02 15:19:38,287  INFO [nioEventLoopGroup-2-4] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x92379a5c, L:/192.168.1.13:4002 - R:/185.15.14.137:55899]
+2020-06-02 15:21:52,849 ERROR [nioEventLoopGroup-2-4] - Server.TCP.TcpServerHandler.exceptionCaught 195 - Exception occurred ! message : 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+2020-06-02 15:21:52,851  INFO [nioEventLoopGroup-2-4] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4002 has disconnected.
+2020-06-02 15:27:39,085  INFO [nioEventLoopGroup-2-5] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0xccc6f351, L:/192.168.1.13:4002 - R:/185.15.14.137:64158]
+2020-06-02 15:29:48,989 ERROR [nioEventLoopGroup-2-5] - Server.TCP.TcpServerHandler.exceptionCaught 195 - Exception occurred ! message : 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+2020-06-02 15:29:48,993  INFO [nioEventLoopGroup-2-5] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4002 has disconnected.
+2020-06-02 15:31:39,948  INFO [nioEventLoopGroup-2-6] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x87081964, L:/192.168.1.13:4002 - R:/185.15.14.137:59251]
+2020-06-02 15:33:52,638 ERROR [nioEventLoopGroup-2-6] - Server.TCP.TcpServerHandler.exceptionCaught 195 - Exception occurred ! message : 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+2020-06-02 15:33:52,640  INFO [nioEventLoopGroup-2-6] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4002 has disconnected.
+2020-06-02 15:44:03,936  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StopListening 79 - Stopping server..
+2020-06-02 15:44:03,970  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 85 - Server shutting down.

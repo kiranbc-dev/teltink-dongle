@@ -1,0 +1,57 @@
+2020-06-03 13:26:38,699  INFO [JavaFX Application Thread] - Source.Main.start 50 - 
+Automatic vehicle location representor v1.3.9 started...
+2020-06-03 13:26:38,702  INFO [JavaFX Application Thread] - Source.Main.start 51 - Installed JAVA version: 1.8.0_251
+2020-06-03 13:26:47,691  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [4002]
+2020-06-03 13:26:47,691  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-06-03 13:26:49,265  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [4002]... listening for incoming connections.
+2020-06-03 13:28:56,473  INFO [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x9131eb6e, L:/192.168.1.13:4002 - R:/42.111.4.84:33202]
+2020-06-03 13:28:56,621 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:28:57,627 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:28:58,704 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:28:59,127 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:28:59,966 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:29:00,247 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:29:00,984 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:29:07,686 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:29:17,783 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:29:28,810 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:29:38,643 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:29:48,728 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:30:24,970 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 13:30:30,039  INFO [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4002 has disconnected.
+2020-06-03 13:30:30,047  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 85 - Server shutting down.
+2020-06-03 13:30:30,051  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StopListening 79 - Stopping server..
+2020-06-03 15:26:17,217  INFO [JavaFX Application Thread] - Source.Main.start 50 - 
+Automatic vehicle location representor v1.3.9 started...
+2020-06-03 15:26:17,219  INFO [JavaFX Application Thread] - Source.Main.start 51 - Installed JAVA version: 1.8.0_251
+2020-06-03 15:26:25,089  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [4002]
+2020-06-03 15:26:25,091  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-06-03 15:26:26,753  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [4002]... listening for incoming connections.
+2020-06-03 15:27:16,591  INFO [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x70d51839, L:/192.168.1.13:4002 - R:/42.111.4.84:2695]
+2020-06-03 15:27:16,776 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:17,693 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:18,460 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:18,911 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:19,679 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:20,411 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:21,054 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:21,579 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:22,517 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:23,195 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:24,354 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:25,355 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:25,774 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:26,336 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:27,072 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:27,851 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:28,395 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:28,853 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:29,651 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:30,376 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:30,834 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:31,656 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:32,471 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:33,172 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-06-03 15:27:33,856  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StopListening 79 - Stopping server..
+2020-06-03 15:27:33,857  INFO [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4002 has disconnected.
+2020-06-03 15:27:33,864  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 85 - Server shutting down.

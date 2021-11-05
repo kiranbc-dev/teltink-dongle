@@ -1,0 +1,97 @@
+2020-08-03 12:08:46,741  INFO [JavaFX Application Thread] - Source.Main.start 50 - 
+Automatic vehicle location representor v1.3.9 started...
+2020-08-03 12:08:46,746  INFO [JavaFX Application Thread] - Source.Main.start 51 - Installed JAVA version: 1.8.0_251
+2020-08-03 12:08:53,915  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [4001]
+2020-08-03 12:08:53,916  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-08-03 12:08:54,668  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [4001]... listening for incoming connections.
+2020-08-03 12:09:25,626  INFO [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x9ac1efef, L:/192.168.1.13:4001 - R:/106.67.72.133:17129]
+2020-08-03 12:10:11,798  INFO [nioEventLoopGroup-2-3] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x74740ac9, L:/192.168.1.13:4001 - R:/106.67.98.21:25192]
+2020-08-03 12:10:34,800 DEBUG [nioEventLoopGroup-2-3] - Server.TCP.TCPServer.decode 55 - FMB SEND :: 00000000000000ef8e0400000173b30bc1d80000000000000000000000000000000000000005000300ef0000010000b3000000000200c7000000000010000000000000000000000173b30be8e80000000000000000000000000000000000000005000300ef0000010000b3000000000200c7000000000010000000000000000000000173b30c4a900000000000000000000000000000000000000005000300ef0000010000b3000000000200c7000000000010000000000000000000000173b30c71a00000000000000000000000000000000000000005000300ef0000010000b3000000000200c700000000001000000000000000000400008b95
+
+2020-08-03 12:10:37,072 DEBUG [nioEventLoopGroup-2-3] - Server.TCP.TCPServer.decode 55 - FMB SEND :: 00000000000000b48e0300000173b30c98b00000000000000000000000000000000000000005000300ef0000010000b3000000000200c7000000000010000000000000000000000173b30cbfc00000000000000000000000000000000000000005000300ef0000010000b3000000000200c7000000000010000000000000000000000173b30ce6d00000000000000000000000000000000000000005000300ef0000010000b3000000000200c70000000000100000000000000000030000e070
+
+2020-08-03 12:10:43,787  INFO [nioEventLoopGroup-2-3] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4001 has disconnected.
+2020-08-03 12:10:52,327  INFO [nioEventLoopGroup-2-4] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x1cf05c04, L:/192.168.1.13:4001 - R:/106.67.98.21:51153]
+2020-08-03 12:11:29,492 ERROR [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.exceptionCaught 195 - Exception occurred ! message : 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+2020-08-03 12:11:29,497  INFO [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4001 has disconnected.
+2020-08-03 12:11:57,014 DEBUG [nioEventLoopGroup-2-4] - Server.TCP.TCPServer.decode 55 - FMB SEND :: 000000000000003e8e0100000173b30d0de00000000000000000000000000000000000000005000300ef0000010000b3000000000200c70000000000100000000000000000010000fc3f
+
+2020-08-03 12:12:00,436 ERROR [nioEventLoopGroup-2-4] - Server.TCP.TcpServerHandler.exceptionCaught 195 - Exception occurred ! message : 
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+2020-08-03 12:12:00,437  INFO [nioEventLoopGroup-2-4] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4001 has disconnected.
+2020-08-03 12:12:01,669  INFO [nioEventLoopGroup-2-5] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x293369b5, L:/192.168.1.13:4001 - R:/106.67.98.21:45462]
+2020-08-03 12:12:24,909 DEBUG [nioEventLoopGroup-2-5] - Server.TCP.TCPServer.decode 55 - FMB SEND :: 0000000000000173080800000173b30d0de000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30d34f000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30d5c0000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30d831000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30daa2000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30dd13000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30df84000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30e1f5000000000000000000000000000000000000503ef000100b3000002c700000000100000000000080000b96d
+
+2020-08-03 12:12:26,644  INFO [nioEventLoopGroup-2-5] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4001 has disconnected.
+2020-08-03 12:12:53,335  INFO [nioEventLoopGroup-2-6] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0xeb2ea223, L:/192.168.1.13:4001 - R:/106.67.98.21:8785]
+2020-08-03 12:12:54,651 DEBUG [nioEventLoopGroup-2-6] - Server.TCP.TCPServer.decode 55 - FMB SEND :: 00000000000000e9080500000173b30e466000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30e6d7000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30e948000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30ebb9000000000000000000000000000000000000503ef000100b3000002c70000000010000000000000000173b30ee2a000000000000000000000000000000000000503ef000100b3000002c70000000010000000000005000085e0
+
+2020-08-03 12:12:56,984 DEBUG [nioEventLoopGroup-2-6] - Server.TCP.TCPServer.decode 55 - FMB SEND :: 0000000000000031080100000173b30f09b000000000000000000000000000000000000503ef000100b3000002c7000000001000000000000100002684
+
+2020-08-03 14:15:00,508 ERROR [nioEventLoopGroup-2-6] - Server.TCP.TcpServerHandler.exceptionCaught 195 - Exception occurred ! message : 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Unknown Source)
+2020-08-03 14:15:00,509  INFO [nioEventLoopGroup-2-6] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4001 has disconnected.
+2020-08-03 14:16:37,448  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 85 - Server shutting down.
+2020-08-03 14:16:37,450  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StopListening 79 - Stopping server..
+2020-08-03 21:15:36,023  INFO [JavaFX Application Thread] - Source.Main.start 50 - 
+Automatic vehicle location representor v1.3.9 started...
+2020-08-03 21:15:36,052  INFO [JavaFX Application Thread] - Source.Main.start 51 - Installed JAVA version: 1.8.0_251
+2020-08-03 21:15:42,609  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [4009]
+2020-08-03 21:15:42,610  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-08-03 21:15:43,504  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [4009]... listening for incoming connections.
+2020-08-03 21:16:45,291  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 85 - Server shutting down.
+2020-08-03 21:16:45,304  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StopListening 79 - Stopping server..
+2020-08-03 21:16:55,752  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [4009]
+2020-08-03 21:16:55,755  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-08-03 21:16:55,775  INFO [pool-3-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [4009]... listening for incoming connections.
+2020-08-03 21:30:31,289  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StopListening 79 - Stopping server..
+2020-08-03 21:30:31,293  INFO [pool-3-thread-1] - Server.TCP.TCPServer.run 85 - Server shutting down.

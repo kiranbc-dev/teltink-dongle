@@ -1,0 +1,8 @@
+2020-05-21 14:35:56,777  INFO [JavaFX Application Thread] - Source.Main.start 50 - 
+Automatic vehicle location representor v1.3.9 started...
+2020-05-21 14:35:56,784  INFO [JavaFX Application Thread] - Source.Main.start 51 - Installed JAVA version: 1.8.0_251
+2020-05-21 14:36:38,882  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [3000]
+2020-05-21 14:36:38,883  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-05-21 14:36:42,024  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [3000]... listening for incoming connections.
+2020-05-21 14:37:34,671  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 85 - Server shutting down.
+2020-05-21 14:37:34,676  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StopListening 79 - Stopping server..

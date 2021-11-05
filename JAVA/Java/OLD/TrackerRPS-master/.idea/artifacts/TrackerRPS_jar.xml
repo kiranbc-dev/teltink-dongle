@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TrackerRPS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TrackerRPS_jar</output-path>
+    <root id="archive" name="TrackerRPS.jar">
+      <element id="module-output" name="TrackerRPS" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/eu/lestard/doc-annotations/0.2/doc-annotations-0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/jodah/typetools/0.4.1/typetools-0.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/de/saxsys/mvvmfx/1.7.0/mvvmfx-1.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

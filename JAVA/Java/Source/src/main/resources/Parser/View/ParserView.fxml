@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="590.0" prefWidth="794.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Parser.View.ParserView">
+    <right>
+        <VBox prefHeight="328.0" prefWidth="119.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="Protocol" textFill="WHITE">
+                    <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <ComboBox fx:id="ProtocolTypeCb" prefHeight="25.0" prefWidth="134.0">
+                    <VBox.margin>
+                        <Insets left="10.0" />
+                    </VBox.margin>
+                </ComboBox>
+                <Button id="menuBtn" fx:id="ParseBtn" mnemonicParsing="false" onAction="#ParseStart" prefHeight="40.0" prefWidth="120.0" text="Parse">
+                    <VBox.margin>
+                        <Insets left="10.0" top="25.0" />
+                    </VBox.margin>
+                </Button>
+                <Button id="menuBtn" fx:id="ClearBtn" mnemonicParsing="false" onAction="#ParserClear" prefHeight="40.0" prefWidth="120.0" text="Clear">
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets left="10.0" top="15.0" />
+                    </VBox.margin>
+                </Button>
+            </children>
+        </VBox>
+    </right>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <TextArea fx:id="InputArea" prefHeight="227.0" prefWidth="655.0" promptText="Paste value here" wrapText="true" VBox.vgrow="ALWAYS">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+                </TextArea>
+                <TextArea fx:id="Console" editable="false" prefHeight="394.0" prefWidth="312.0" promptText="Results" wrapText="true" VBox.vgrow="ALWAYS">
+                    <VBox.margin>
+                        <Insets bottom="5.0" />
+                    </VBox.margin>
+                </TextArea>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,29 @@
+2020-05-22 10:49:57,978  INFO [JavaFX Application Thread] - Source.Main.start 50 - 
+Automatic vehicle location representor v1.3.9 started...
+2020-05-22 10:49:57,983  INFO [JavaFX Application Thread] - Source.Main.start 51 - Installed JAVA version: 1.8.0_251
+2020-05-22 10:50:33,150  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [3000]
+2020-05-22 10:50:33,151  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-05-22 10:50:35,156  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [3000]... listening for incoming connections.
+2020-05-22 12:26:50,063  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 85 - Server shutting down.
+2020-05-22 12:26:50,069  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StopListening 79 - Stopping server..
+2020-05-22 13:17:16,047  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [3000]
+2020-05-22 13:17:16,049  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-05-22 13:17:16,083  INFO [pool-3-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [3000]... listening for incoming connections.
+2020-05-22 13:17:59,507  INFO [nioEventLoopGroup-3-2] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x51009597, L:/192.168.1.15:3000 - R:/106.197.206.237:21882]
+2020-05-22 13:18:00,430 DEBUG [nioEventLoopGroup-3-2] - Server.TCP.TCPServer.decode 55 - FMB SEND :: 00000000000000918e02000001723b58f850002db04be30756c0be0310012b09000000000009000500f00000150400c800007110007401000200430dc603780003000100f100009dfd00000001014b0000000001723b59e2b0002db04be30756c0be0310012b0a000000000009000500f00000150400c800007110007401000200430dca03780003000100f100009dfd00000001014b0000020000ea84
+
+2020-05-22 13:18:00,933  INFO [nioEventLoopGroup-3-2] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.15:3000 has disconnected.
+2020-05-22 13:18:49,810  INFO [nioEventLoopGroup-3-3] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x02e145b9, L:/192.168.1.15:3000 - R:/106.197.206.237:49239]
+2020-05-22 13:18:50,589 DEBUG [nioEventLoopGroup-3-3] - Server.TCP.TCPServer.decode 55 - FMB SEND :: 000000000000004a8e01000001723b5acd10002db04be30756c0be0310012b0c000000000009000500f00000150400c800007111007401000200430dcb03780003000100f100009dfd00000001014b000001000084a7
+
+2020-05-22 13:19:20,498  INFO [nioEventLoopGroup-3-3] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.15:3000 has disconnected.
+2020-05-22 13:19:49,956  INFO [nioEventLoopGroup-3-4] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0xa0859d6d, L:/192.168.1.15:3000 - R:/106.197.206.237:5867]
+2020-05-22 13:19:50,734 DEBUG [nioEventLoopGroup-3-4] - Server.TCP.TCPServer.decode 55 - FMB SEND :: 000000000000004a8e01000001723b5bb770002db04be30756c0be0310012b0a000000000009000500f00000150400c800007111007401000200430dcf03780003000100f100009dfd00000001014b00000100003c3a
+
+2020-05-22 13:20:20,612  INFO [nioEventLoopGroup-3-4] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.15:3000 has disconnected.
+2020-05-22 16:14:18,598  INFO [nioEventLoopGroup-3-5] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x4351a84b, L:/192.168.1.15:3000 - R:/223.71.167.164:63921]
+2020-05-22 16:14:18,700 ERROR [nioEventLoopGroup-3-5] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-05-22 16:14:38,411  INFO [nioEventLoopGroup-3-5] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.15:3000 has disconnected.
+2020-05-22 16:14:38,765  INFO [nioEventLoopGroup-3-6] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x16434281, L:/192.168.1.15:3000 - R:/223.71.167.164:20958]
+2020-05-22 16:14:38,867 ERROR [nioEventLoopGroup-3-6] - Server.TCP.TCPServer.decode 88 - Failed to read a packet. Corrupted or not enough bytes ! Exception caught : null
+2020-05-22 16:14:58,847  INFO [nioEventLoopGroup-3-6] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.15:3000 has disconnected.

@@ -1,0 +1,15 @@
+2020-07-09 17:15:30,583  INFO [JavaFX Application Thread] - Source.Main.start 50 - 
+Automatic vehicle location representor v1.3.9 started...
+2020-07-09 17:15:30,587  INFO [JavaFX Application Thread] - Source.Main.start 51 - Installed JAVA version: 1.8.0_251
+2020-07-09 17:15:42,860  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [4006]
+2020-07-09 17:15:42,861  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-07-09 17:15:43,849  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [4006]... listening for incoming connections.
+2020-07-09 17:21:26,268  INFO [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.channelActive 68 - Channel connected -> [id: 0x813f980e, L:/192.168.1.13:4006 - R:/223.181.217.230:3715]
+2020-07-09 17:30:58,769  INFO [pool-2-thread-1] - Server.TCP.TCPServer.run 85 - Server shutting down.
+2020-07-09 17:30:58,770  INFO [nioEventLoopGroup-2-2] - Server.TCP.TcpServerHandler.channelInactive 81 - /192.168.1.13:4006 has disconnected.
+2020-07-09 17:30:58,773  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StopListening 79 - Stopping server..
+2020-07-09 17:31:00,611  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StartServer 104 - Server is starting at port [4006]
+2020-07-09 17:31:00,611  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.ListenStart 67 - Start server initializing..
+2020-07-09 17:31:00,626  INFO [pool-3-thread-1] - Server.TCP.TCPServer.run 64 - TCP server listener successfully started on port [4006]... listening for incoming connections.
+2020-07-09 17:59:29,745  INFO [JavaFX Application Thread] - Server.TCP.View.TCPView.StopListening 79 - Stopping server..
+2020-07-09 17:59:29,746  INFO [pool-3-thread-1] - Server.TCP.TCPServer.run 85 - Server shutting down.
